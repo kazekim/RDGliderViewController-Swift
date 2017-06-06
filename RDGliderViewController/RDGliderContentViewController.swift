@@ -30,7 +30,7 @@ open class RDGliderContentViewController: UIViewController {
         }
     }
 
-    private var length: CGFloat?
+    public var length: CGFloat?
 
     required public init(length: CGFloat) {
         super.init(nibName: nil, bundle: nil)
