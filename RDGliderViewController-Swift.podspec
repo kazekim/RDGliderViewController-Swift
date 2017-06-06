@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RDGliderViewController-Swift'
-  s.version          = '1.0.22'
+  s.version          = '1.0.23’
   s.summary          = 'Control for a draggable ViewController gliding over another ViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   and setting an array of offsets as percent values to determine the gliding view steps.
   DESC
 
-  s.homepage         = 'https://github.com/gelemias/RDGliderViewController-Swift'
-  s.screenshots      = 'https://raw.githubusercontent.com/gelemias/RDGliderViewController/master/img/1.png'
+  s.homepage         = 'https://github.com/kazekim/RDGliderViewController-Swift'
+  s.screenshots      = 'https://raw.githubusercontent.com/kazekim/RDGliderViewController/master/img/1.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Guillermo RD' => 'gelemias@gmail.com' }
-  s.source           = { :git => 'https://github.com/gelemias/RDGliderViewController-Swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kazekim/RDGliderViewController-Swift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
